@@ -1,0 +1,20 @@
+﻿<Window x:Class="Test15112023.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test15112023"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ComboBox x:Name="cmb" HorizontalAlignment="Left" Height="43" Margin="75,25,0,0" VerticalAlignment="Top" Width="143" SelectionChanged="cmb_SelectionChanged"  >
+            <ComboBoxItem Cursor="" Content="Koule" IsSelected="True"/>
+            <ComboBoxItem Content="Kvádr"/>
+        </ComboBox>
+        <TextBox x:Name="textBoxa" HorizontalAlignment="Left" Height="36" Margin="164,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="textBlocka" HorizontalAlignment="Left" Height="36" Margin="75,77,0,0" TextWrapping="Wrap" Text="a:" VerticalAlignment="Top" Width="71"/>
+        <TextBlock x:Name="textBlockodp" HorizontalAlignment="Left" Height="55" Margin="75,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
+        <Button x:Name="btnVyp" Content="Vypočítej" HorizontalAlignment="Left" Height="29" Margin="75,125,0,0" VerticalAlignment="Top" Width="143" Click="btnVyp_Click"/>
+
+    </Grid>
+</Window>
